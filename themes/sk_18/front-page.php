@@ -47,7 +47,7 @@ get_header();
 			</div>
 		</section>
 		<section>
-			<div class="container">
+			<!-- <div class="container">
 			<h2>The coaches</h2>
 			<div class="coaches">
 				<div class="sk-coach-ermil">
@@ -62,6 +62,20 @@ get_header();
 					<div class="profile"><img class="tent" src="<?php echo get_template_directory_uri(); ?>/assets/images/test.jpg"></div>
 
 				<div class="profile-background"><?php echo CFS()->get('sk_chinny'); ?></div>
+				</div>
+			</div> -->
+			<div class="panels">
+				<div class="panel">
+					<h4>Coach</h4>
+					<h2>Ermil J.</h2>
+						<img class="profile" src="<?php echo get_template_directory_uri(); ?>/assets/images/test.jpg">
+							<?php echo CFS()->get('sk_ermil'); ?>
+				</div>
+				<div class="panel">
+					<h4>Coach</h4>
+					<h2>Chinatsu K.</h2>
+						<img class="profile" src="<?php echo get_template_directory_uri(); ?>/assets/images/test.jpg">
+							<?php echo CFS()->get('sk_chinny'); ?>
 				</div>
 			</div>
 		</section>
