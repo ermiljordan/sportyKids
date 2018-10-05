@@ -1,0 +1,51 @@
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+} 
+p {
+  text-align: center;
+  font-size: 14px;
+  margin: 0 auto;
+}
+h4 {
+  text-align: center;
+}
+//GLOBAL
+
+.titles {
+  display: flex;
+  color: #fff;
+}
+.right-title {
+  position: absolute;
+  bottom: 61%;
+  right: 2%;
+}
+.left-title {
+  position: absolute;
+    bottom: 58%;
+  padding-left: 7px;
+}
+.title-parag {
+  font-size: 10px;
+}
+.hero-title {
+  text-align: unset;
+}
+
+//what we can do section
+.green-bcgnd-content {
+  padding-top:6em;
+  overflow: hidden;
+}
+.green-bck-parag {
+  position: relative;
+  bottom: 13em;
+  width: 75%;
+}
+.green-bck-parag-2 {
+  position: relative;
+  bottom: 23em;
+  width: 70%;
+}
